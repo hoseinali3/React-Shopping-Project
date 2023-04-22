@@ -1,0 +1,41 @@
+.section1-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 0 0 1em 0;
+    gap: 1em;
+}
+
+.sec1-leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+
+}
+
+.sec1-leftside img {
+    border-radius: 25px;
+    width: 26em;
+    box-shadow: var(--box-shadow);
+    transition: 0.25s;
+}
+
+.sec1-leftside img:hover {
+    opacity: 0.85;
+}
+
+@media screen and (max-width:1399px) {
+
+    .section1-container {
+
+        grid-template-columns: unset;
+        grid-template-rows: repeat(3, auto);
+
+    }
+
+    .sec1-leftside {
+        grid-row: 2/3;
+        flex-direction: unset;
+        justify-content: space-evenly;
+    }
+}

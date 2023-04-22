@@ -1,0 +1,37 @@
+
+
+.swiper-container{
+    border-radius: 25px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+
+
+
+.swiper-button-prev,
+.swiper-button-next{
+background-color: var(--white);
+padding: 1.5em;
+border-radius: 10em;
+opacity: 0.8;
+transition: 0.3s;
+border: 1px solid var(--light-gray);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+
+    opacity: 1;
+}
+
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    color: var(--darker-gray);
+    font-size: 30px;
+}
+
+
+.swiper-pagination-bullet-active{
+    background-color: var(--orange);
+}

@@ -1,0 +1,180 @@
+/* @font-face {
+    font-family: iransans;
+    src: url(../../Font/IRANSansWeb.ttf);
+}
+@font-face {
+    font-family: B-Yekan;
+    src: url(../../Font/YekanV3.eot);
+    src: url(../../Font/YekanV3.ttf);
+    src: url(../../Font/YekanV3.woff);
+} */
+
+/* :root{
+    --orange:#fccc4c;
+    --orange2:#e88835;
+    --green:#85c60d;
+    --red:#f2002d;
+    --gray:#989898;
+    --gray2:#767676;
+    --light-gray:#ebebeb;
+    --cream:#fff7efd9;
+    --pink:#e4584b;
+    --box-shadow:0 0 15px -6px;
+    --box-shadow2: 0 0 30px 0 rgb(0 0 0 / 12%);
+} */
+.mobile-menu {
+    display: none;
+
+    direction: rtl !important;
+}
+
+.hamburger-menu {
+    border-radius: 10em;
+
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 99;
+
+}
+
+.hamburger-menu-lines {
+    top: 27px;
+    right: 11px;
+}
+
+.hamburger-menu-lines,
+.hamburger-menu-lines::before,
+.hamburger-menu-lines::after {
+
+    width: 35px;
+    height: 4px;
+    position: absolute;
+    background-color: #454545;
+    border-radius: 5em;
+    transition: 0.5s;
+}
+
+.hamburger-menu-lines::before {
+    content: "";
+    transform: translateY(12px);
+}
+
+.hamburger-menu-lines::after {
+    content: "";
+    transform: translateY(-12px);
+}
+
+
+
+
+
+/*humberger-Animation*/
+.hamburger-menu.open .hamburger-menu-lines {
+    transform: translateX(-50px);
+    background: transparent;
+
+}
+
+.hamburger-menu.open .hamburger-menu-lines::before {
+    transform: rotate(45deg) translate(35px, -35px);
+
+}
+
+.hamburger-menu.open .hamburger-menu-lines::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.mobile-icons {
+    margin: 0 6px;
+    width: 30px;
+}
+
+.mobile-undermenu {
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em !important;
+}
+
+.accordion {
+    box-shadow: unset !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.mobile-li,
+.mobile-color {
+    background-color: var(--orange) !important;
+}
+
+.mobile-li {
+    padding: 0.5em !important
+}
+
+.mobile-litxt span {
+    font-family: IRsans-web !important;
+    padding: 0.5em !important;
+    text-align: center;
+}
+
+
+.devider {
+    border-color: #0000007d !important
+}
+
+.mobile-color {
+
+    height: 100em !important;
+}
+
+@media screen and (max-width:1225px) {
+    .mobile-menu {
+        display: flex;
+
+    }
+
+    .hamburger-menu-lines {
+
+
+        display: flex;
+
+    }
+
+    .mobile-navbar {
+        width: 30%;
+        height: 100%;
+        position: fixed;
+        left: -25em;
+        top: 0;
+        justify-content: right;
+        transition: 0.5s;
+        display: flex;
+        z-index: 999;
+        background-color: #454545;
+    }
+
+    .mobile-navbar ul {
+        margin: 5em 0 0 0;
+        line-height: 3;
+    }
+
+    .mobile-navbar ul li a {
+        color: #fff !important;
+    }
+
+    /* .openit{
+    transition: 0.2s;
+      transform: translate(1.4em,1.6em);
+      width: 1.3%;
+      font-size: 1.2em;
+  
+  }
+  .fa-plus.open{
+    transform:rotate(45deg) translate(40px,3px);
+  } */
+}
+
+

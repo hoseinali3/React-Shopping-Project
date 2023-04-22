@@ -1,0 +1,12 @@
+
+
+.error404-wrapper{
+   
+    margin: 0 auto;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.error404-img{
+   margin: 0 auto;
+  width: 600px;
+}

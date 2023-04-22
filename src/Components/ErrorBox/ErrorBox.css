@@ -1,0 +1,11 @@
+
+
+.error-container{
+    border-radius: 25px;
+    background-color: var(--red-orange);
+    padding: 2em;
+}
+.error-title{
+   color: var(--white);
+   text-align: center;
+}

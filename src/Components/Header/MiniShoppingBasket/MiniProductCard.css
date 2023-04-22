@@ -1,0 +1,122 @@
+.miniBasket-productcard{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 1em;
+    row-gap: 20px;
+    border-bottom: 1px dashed var(--gray);
+}
+
+.pcard-topbar,
+.pcard-midbar,
+.pcard-footerbar{
+    display: flex;
+    align-items: center;
+    
+}
+.pcard-topbar,
+.pcard-midbar{
+    justify-content: space-between;
+}
+.pcard-footerbar{
+    justify-content: end;
+}
+
+.close-icon{
+    width: 25px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.pcard-midbar img{
+    width: 85px;
+    height: auto;
+}
+
+.quantity-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-number{
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid var(--gray);
+    display: flex;
+    padding: 3px 0 0 0;
+    align-items: center;
+    border-bottom: 1px solid var(--gray);
+    justify-content: center;
+    color: var(--darker-gray);
+    
+}
+.quantity-number-removebtn,
+.quantity-number-addbtn{
+    color: var(--orange);
+    border: 1px solid var(--gray);
+   font-size: 30px !important;
+   transition: 0.3s;
+   cursor: pointer;
+
+}
+.quantity-number-removebtn:hover,
+.quantity-number-addbtn:hover{
+    background-color: var(--orange);
+    color: var(--white);
+
+}
+.quantity-number-removebtn{
+    border-radius: 0 5px 5px 0;
+}
+.quantity-number-addbtn{
+    border-radius:  5px 0 0 5px ;
+}
+
+.number1:focus{
+    outline: 1px solid var(--orange);
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+  .pcard-midbar-sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+  }
+
+  .pcard-midbar-colortitle{
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+    color: var(--darker-gray);
+  }
+  .pcard-midbar-color{
+    padding: 0.8em;
+    border: 1px solid var(--gray);
+    border-radius: 10em;
+  }
+
+  
+  .product-price,
+  .product-price span{
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  @media screen and (max-width:1225px) {
+    .miniBasket-productcard{
+      
+        padding: 1em 2em;
+       width: 100%;
+    }
+    
+  }

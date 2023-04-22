@@ -1,0 +1,19 @@
+
+
+
+.filter-panel-container{
+    display: flex;
+    flex-direction: column;
+   padding: 0.5em 0;
+}
+
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 0.5em 1em;
+  background-color: var(--white);
+    border-radius: 25px;
+box-shadow: var(--box-shadow);
+}

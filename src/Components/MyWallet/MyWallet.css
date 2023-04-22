@@ -1,0 +1,62 @@
+
+.mywallet-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    padding: 1em;
+}
+.mywallet-header{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mywallet-header-rightside{
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+}
+
+.mywallet-header-leftside Button{
+background-color: var(--orange) !important;
+padding: 0.5em 1em !important;
+margin: 0 0 0 4em !important;
+border-radius: 10px !important;
+font-size: 15px !important;
+color: var(--white) !important;
+}
+
+.mywallet-table{
+    width: 100%;
+}
+.mywallet-thead tr th,
+.mywallet-tbody tr td{
+padding: 0.7em 0;
+text-align: center;
+}
+
+.mywallet-thead tr,
+.mywallet-tbody tr{
+    border-bottom: 1px dashed var(--gray);
+}
+.mywallet-Validity{
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.mywallet-title{
+    color: var(--darker-gray);
+}
+
+
+@media screen and (max-width:768px) {
+    .mywallet-Validity{
+        font-size: 20px;
+    }
+    .mywallet-header-leftside Button{
+        margin: 0 !important;
+    }
+}

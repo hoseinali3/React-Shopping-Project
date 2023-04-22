@@ -1,0 +1,34 @@
+
+
+.section3-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    column-gap: 1em;
+}
+
+.section3-container a{
+    margin: 0 auto;
+}
+.section3-container a img{
+    box-shadow: var(--box-shadow);
+    border-radius: 25px;
+    width: 338px;
+    margin: 0 auto;
+    transition: 0.3s;
+    
+}
+
+.section3-container a img:hover{
+opacity: 0.85;
+    
+}
+
+
+@media screen and (max-width:1400px) {
+    .section3-container{
+        row-gap: 1em;
+    }
+}

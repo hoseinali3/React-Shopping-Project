@@ -1,0 +1,29 @@
+
+.show-favorite-btn-wrapper{
+opacity: 0;
+visibility: hidden;
+transition: 0.2s;
+}
+
+.show-favorite-btn-wrapper.active{
+opacity: 1;
+visibility: visible;
+}
+
+    .show-favorite-btn{
+    position: fixed!important;
+    bottom: 4em !important;
+    z-index: 99999 !important;
+    right: 2em;
+    background: var(--orange) !important;
+   border: 1px solid #ff4d32 !important;
+    padding: 0.5em !important;
+    box-shadow: var(--box-shadow);
+    background-color: #ff4d3224 !important;
+    color:#ff4d32 !important;
+   
+}
+    .show-favorite-btn svg{
+   font-size: 36px !important;
+   
+}

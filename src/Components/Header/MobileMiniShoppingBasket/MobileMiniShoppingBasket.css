@@ -1,0 +1,22 @@
+.mobile-mini-shopping-basket{
+    position: fixed!important;
+    bottom: 2em !important;
+    z-index: 99999 !important;
+    right: 2em;
+    background: var(--orange) !important;
+    display: none !important;
+    padding: 0.5em !important;
+    box-shadow: var(--box-shadow);
+}
+.mobile-mini-shopping-basket img{
+   width: 55px;
+   height: auto;
+}
+
+@media screen and (max-width:1225px) {
+    .mobile-mini-shopping-basket{
+       
+        display: block !important;
+    }
+    
+}

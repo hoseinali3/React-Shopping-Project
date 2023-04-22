@@ -1,0 +1,80 @@
+
+
+.login-form-wrapper{
+    padding: 2em;
+    margin: 0 25em;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    background-color: var(--white);
+display: flex;
+flex-direction: column;
+
+}
+
+
+.login-form-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+.login-form-header h3{
+    color: var(--bs-gray-600);
+    
+}
+
+.reg-btn-no-account{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+    justify-content: center;
+}
+.reg-btn-no-account span{
+font-size: 14px;
+color: var(--bs-gray-600);
+}
+.reg-btn-no-account-btn{
+background-color: var(--light-orange) !important;
+border-radius: 10px !important;
+color: var(--bs-gray-700) !important;
+padding: 0.5em !important;
+font-size: 14px !important;
+}
+
+.login-form-inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.login-form-btn{
+    padding: 0.5em 0 !important;
+    color: var(--white) !important;
+    background-color: var(--orange) !important;
+    font-size: 20px !important;
+    border-radius: 10px !important;
+    margin: 1em 0 0 0 !important;
+}
+.login-form-btn:hover{
+    
+    background-color: var(--darker-orange) !important;
+   
+}
+
+.login-icon{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.forget-password{
+    color: var(--bs-gray-600);
+    font-size: 14px;
+    justify-self: center;
+    align-self: center;
+    transition: 0.25s;
+}
+.forget-password:hover{
+    color: var(--orange);
+ 
+}
+

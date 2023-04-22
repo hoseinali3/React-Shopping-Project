@@ -1,0 +1,113 @@
+.newticket-wrapper {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+
+    .newticket-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1em;
+
+        span {
+            color: var(--darker-gray);
+            font-size: 18px;
+        }
+
+        a {
+            background-color: var(--orange) !important;
+            color: var(--white) !important;
+            border-radius: 10px !important;
+            padding: 0.5em 1em !important;
+            font-size: 18px !important;
+        }
+    }
+
+    .newticket-form {
+
+        display: flex;
+       
+        flex-direction: column;
+        row-gap: 0.5em;
+        max-width: 528px;
+        width: 100%;
+
+        .newticket-form-header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.5em;
+
+            .MuiOutlinedInput-selectedOutline {
+                border-color: var(--orange);
+
+            }
+
+            .css-1wgtzda-MuiFormControl-root,
+            .css-6feksg-MuiFormControl-root{
+                margin: 0;
+            }
+
+            .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+                color: var(--orange);
+            }
+
+            .Mui-focused .MuiOutlinedInput-notchedOutline {
+                border: 1px solid var(--orange) !important;
+
+            }
+
+            .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+                border-radius: 10px !important;
+            }
+
+            .newticket-title {
+                padding: 1em;
+                border: 1px solid var(--gray);
+                border-radius: 10px;
+
+            }
+
+            .newticket-title:focus {
+
+                border-color: var(--orange);
+
+            }
+        }
+
+        .newticket-textarea {
+            border: 1px solid var(--gray);
+            border-radius: 12px;
+            padding: 1em;
+            align-self: start;
+            width: 94%;
+            height: 40vh !important;
+        }
+
+        .newticket-textarea:focus {
+            border-color: var(--orange);
+        }
+
+        .newticket-footer {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            column-gap: 0.5em;
+            padding: 0 2em;
+        }
+    }
+}
+
+
+
+.newticket-sendbtn {
+    background-color: var(--orange) !important;
+    color: var(--white) !important;
+    border-radius: 8px !important;
+    font-size: 18px !important;
+}
+
+
+
+

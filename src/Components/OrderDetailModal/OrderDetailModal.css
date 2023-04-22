@@ -1,0 +1,16 @@
+
+
+.order-detail-container{
+    background-color: var(--white);
+    padding: 1em 3em 3em 3em;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.cancel-color-btn{
+    color: var(--orange) !important;
+    margin: 0 0 0.5em 0 !important;
+}
+.cancel-color-btn:hover{
+    background-color: var(--light-orange2) !important;
+}

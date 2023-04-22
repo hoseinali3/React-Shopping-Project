@@ -1,0 +1,139 @@
+
+
+.products-header{
+    padding: 0 1em 1em 1em;
+}
+
+.products-header a img{
+    border-radius: 25px;
+    box-shadow: var(--box-shadow);
+    transition: 0.25s;
+}
+
+
+.products-list-wrapper,
+.products-filter-panel,
+.products-listcards{
+    
+    overflow-y: auto;
+}
+.products-list-wrapper::-webkit-scrollbar,
+.products-filter-panel::-webkit-scrollbar,
+.products-listcards::-webkit-scrollbar{
+    
+    display: none;
+}
+.products-list-wrapper{
+    display: flex;
+    padding: 0 1em;
+    
+}
+
+.products-filter-panel{
+    
+    flex-basis: 300px;
+    
+
+
+}
+
+.products-listcards{
+    flex:1;
+    border-radius: 25px;
+    align-items: start;
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 1em;
+    box-shadow: var(--box-shadow);
+    margin: 1em 0;
+}
+
+.products-sort{
+    display: flex;
+    justify-content: end;
+    padding: 0 1em;
+   
+   
+}
+
+.products-sort-wrapper{
+    border-radius: 20px;
+    padding: 0.6em 1em;
+    width: 965px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+}
+
+.product-sort-rightside{
+    display: flex;
+    column-gap: 1em;
+    align-items: center;
+}
+.products-sort-btn{
+    color: var(--darker-gray);
+    cursor: pointer;
+ padding: 0.5em;
+ border-radius: 10px;
+ transition: 0.2s;
+}
+.products-sort-btn:hover{
+    color: var(--darker-gray);
+}
+.products-sort-btn.active{
+    color: var(--white);
+    background-color: var(--orange);
+    
+    
+}
+
+.product-search{
+   border: 1px solid var(--light-gray);
+   border-radius: 15px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+.product-search input[type=text]{
+  padding: 0.5em;
+
+}
+.product-search svg{
+ color: var(--darker-gray);
+ margin: 0 0 0 0.5em;
+
+}
+
+
+@media screen and (max-width:1400px) {
+    .products-sort-wrapper{
+       
+        width: 786px;
+       
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .products-sort-wrapper{
+       
+        width: 890px;
+       
+    }
+}
+@media screen and (max-width:992px) {
+    .products-sort-wrapper{
+       
+        width: 890px;
+       
+    }
+    .products-filter-panel,
+    .product-search{
+        display: none;
+    }
+    
+}

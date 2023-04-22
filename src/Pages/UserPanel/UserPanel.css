@@ -1,0 +1,76 @@
+
+.user-panel-wrapper{
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+   display: grid;
+   grid-template-columns: 210px 1fr;
+   background-color: var(--white);
+  width: 100%;
+  
+}
+
+.main-dashboard-body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    row-gap: 2em;
+}
+
+
+.alltickets-title{
+    padding: 0 3em;
+}
+.alltickets-title,
+.main-dashboard-rightside h4,
+.dashboard-rightside-list{
+    color: var(--darker-gray);
+    }
+.dashboard-rightside-list
+.dashboard-rightside-listitem{
+text-align: center;
+
+}
+
+.dashboard-rightside-list{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 !important;
+   
+}
+
+
+
+.dashboard-rightside-listitem{
+    border-bottom: 1px dashed var(--gray);
+    padding: 1em;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    font-size: 15px;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+ 
+}
+
+.main-dashboard-leftside{
+display: flex;
+flex-direction: column;
+
+justify-content: space-evenly;
+}
+
+.mywallet-money{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+}
+
+@media screen and (max-width:992px) {
+    .user-panel-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+    }
+    
+}

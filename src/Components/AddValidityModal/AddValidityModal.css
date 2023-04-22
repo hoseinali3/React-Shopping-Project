@@ -1,0 +1,30 @@
+.add-validity-wrapper{
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 1em;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    
+}
+
+.add-validity-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cancel-validity-btn{
+    align-self: start;
+    color: var(--orange) !important;
+}
+.cancel-validity-btn:hover{
+   
+    background-color: var(--light-orange2) !important;
+}
+
+.paying-validity-btn{
+    color: var(--white) !important;
+    background-color: var(--orange) !important;
+}

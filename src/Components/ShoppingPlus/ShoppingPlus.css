@@ -1,0 +1,129 @@
+
+.shopping-plus-container{
+    box-shadow: var(--box-shadow);
+    border-radius: 25px;
+    background-color: var(--cream);
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    padding: 1em 2em;
+    margin: 1em 0 0 0;
+    
+}
+.shopping-plus-rightside{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 1em;
+}
+
+.shopping-plus-title{
+    font-size: 36px;
+    color: var(--brown);
+    display: block;
+}
+.shopping-plus-subtitle{
+    color: var(--red-orange);
+    display: block;
+}
+.shopping-plus-btn{
+    color: var(--brown) !important;
+    width: max-content;
+    border: 1px solid var(--brown) !important;
+    font-family: IRsans-web !important;
+    padding: 0.5em 1em 0.5em 0.6em !important;
+    font-size: 16px !important;
+    border-radius: 10px !important;
+}
+.shopping-plus-img{
+  width: 320px;
+}
+
+
+.shopping-plus-leftside{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 0.5em;
+}
+
+.shopping-plus-leftside-col1,
+.shopping-plus-leftside-col2{
+    background-color: var(--white);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.shopping-plus-leftside-col1{
+   border-radius: 0 25px 25px 0;
+}
+.shopping-plus-leftside-col2{
+   border-radius: 25px 0 0 25px;
+}
+
+.shopping-plus-leftside-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+}
+.shopping-plus-header-right img{
+width: 50px;
+}
+.shopping-plus-header-right span{
+font-size: 18px;
+}
+
+.shopping-plus-header-left a{
+color: var(--brown);
+}
+
+.shopping-plus-leftside-body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 2em;
+    padding: 1em;
+}
+
+
+@media screen and (max-width:1200px) {
+    .shopping-plus-img{
+        width: 250px;
+      }
+}
+@media screen and (max-width:992px) {
+    .shopping-plus-container{
+       
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .shopping-plus-rightside{
+       
+        align-items: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .shopping-plus-container{
+       
+       padding: 1em;
+        
+        
+    }
+    .shopping-plus-leftside-body{
+   
+        gap: 1em;
+        padding: 1em;
+    }
+    .shopping-plus-header-right span,
+    .shopping-plus-header-left span{
+        font-size: 14px;
+    }
+    .shopping-plus-header-right img{
+        width: 35px;
+    }
+}

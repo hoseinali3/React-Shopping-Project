@@ -1,0 +1,41 @@
+
+
+.SwiperProductSlider-container{
+    border-radius: 25px;
+    box-shadow: var(--box-shadow);
+    padding: 0.5em 1em;
+    background-color: var(--white);
+}
+
+
+
+.product-slider-header{
+    border-bottom: 2px solid var(--light-gray);
+   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-slider-header span,
+.product-slider-header span a{
+    color: var(--darker-gray);
+}
+
+.product-slider-title{
+    margin: 0;
+    color: #651fff;
+    width: max-content;
+    padding: 10px 0;
+    position: relative;
+   
+}
+.product-slider-title::after{
+    content: '';
+    position: absolute;
+    display: block;
+    border-bottom: 2px solid #651fff;
+    width: 6.4em;
+    bottom: -1.5px;
+   
+}
+

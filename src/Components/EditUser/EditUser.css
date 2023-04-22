@@ -1,0 +1,27 @@
+.edit-user-form-inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+   align-items: center;
+   width: 40%;
+   margin: 0 auto;
+   padding: 1em;
+}
+
+
+.edit-user-form-btn{
+    padding: 0.5em !important;
+    color: var(--white) !important;
+    background-color: var(--orange) !important;
+    font-size: 20px !important;
+    border-radius: 10px !important;
+    margin: 2em 0 0 0 !important;
+   
+}
+
+
+@media screen and (max-width:1200px) {
+    .edit-user-form-inputs{
+        width: 60%;
+    }
+}

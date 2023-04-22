@@ -1,0 +1,79 @@
+
+
+.user-panel-tabs{
+    padding: 1em;
+    display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+  align-items: center;
+border-left: 1px solid var(--gray);
+span{
+    background-color: var(--bs-gray-300);
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 1em;
+    color: var(--darker-gray);
+    font-size: 20px;
+    border-radius: 10px;
+}
+  a{
+    color: var(--darker-gray);
+    padding: 0.7em 0;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    transition: 0.2s;
+  }
+    
+    a.active{
+        background-color: var(--orange) !important;
+        color: var(--white) !important;
+    }
+    .css-10d9dml-MuiTabs-indicator{
+        display: none;
+    }
+}
+
+.user-panel-pishkhan{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    padding: 1em;
+    p{
+        color: var(--white);
+        line-height: 2.5;
+        font-size: 20px;
+        align-self: center;
+       
+        padding: 0 1em !important;
+        border-radius: 10px;
+        background-color: var(--orange);
+    }
+    .user-panel-pishkhan-btns{
+        display: flex;
+        column-gap: 0.5em;
+        a{
+            border: 1px solid var(--darker-orange);
+            color: var(--darker-orange);
+            font-size: 18px;
+            border-radius: 10px;
+            padding: 0.5em;
+        }
+        .css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover{
+            background-color: var(--white);
+        }
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    
+.user-panel-tabs{
+   
+border-left: unset;
+border-bottom: 1px solid var(--gray);
+justify-content: center;
+align-items: center;
+
+}
+}

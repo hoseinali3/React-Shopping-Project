@@ -1,0 +1,297 @@
+/***
+    The new CSS reset - version 1.7.3 (last updated 7.8.2022)
+    GitHub page: https://github.com/elad2412/the-new-css-reset
+***/
+
+/*
+    Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
+    - The "symbol *" part is to solve Firefox SVG sprite bug
+ */
+ *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: IRsans-web;
+  -webkit-user-select: none;
+}
+button{
+  font-family: IRsans-web !important;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+a, button {
+  cursor: revert;
+  text-decoration: none !important;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0 !important;
+}
+/* Remove list styles (bullets/numbers) */
+ol, ul, menu,p {
+  list-style: none;
+ margin: 0 !important;
+ padding: 0 !important;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
+input, textarea {
+  -webkit-user-select: auto;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: pre-wrap;
+  word-wrap: break-word; 
+}
+
+
+
+/* minimum style to allow to style meter element */
+meter {
+  -webkit-appearance: revert;
+  appearance: revert;
+}
+
+/* reset default text opacity of input placeholder */
+::placeholder {
+  color: #868686;;
+}
+
+/* fix the feature of 'hidden' attribute.
+ display:revert; revert to element instead of attribute */
+:where([hidden]) {
+  display: none;
+}
+
+/* revert for bug in Chromium browsers
+ - fix for the content editable attribute will work properly.
+ - webkit-user-select: auto; added for Safari in case of using user-select:none on wrapper element*/
+:where([contenteditable]:not([contenteditable="false"])) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+  -webkit-user-select: auto;
+}
+
+/* apply back the draggable feature - exist only in Chromium and Safari */
+:where([draggable="true"]) {
+  -webkit-user-drag: element;
+}
+
+body,html{
+  direction: rtl;
+}
+.link{
+  text-decoration: none;
+  
+}
+
+@font-face {
+  font-family: B-yekan;
+  src: url(Font/YekanV3.eot);
+  src: url(Font/YekanV3.ttf);
+  src: url(Font/YekanV3.woff);
+}
+
+@font-face {
+  font-family: IRsans-web;
+  src: url(Font/IRANSansWeb.ttf);
+  
+}
+
+@font-face {
+  font-family: Lato-regular;
+  src: url(Font/Lato-Regular.ttf);
+  
+}
+
+
+
+:root{
+  --blue:#0042b4;
+  --blue2:#013896;
+  --light-blue:#0d6dfd5a;
+  --red-orange:#fe3107;
+  --red-orange2:#dd2500;
+  --light-red-orange2:#dd25004c;
+  --green: #20af2e;
+  --light-green: #20af2e4c;
+  --green2: #137d1d;
+  --light-green2: #137d1d4c;
+  --white:#ffffff;
+  --light-white:#f0f0f03d;
+  --gray:#cacaca;
+  --dark-gray:#8d8d8d;
+  --light-gray:#efefef;
+  --light-gray2:#e9e9e9;
+  --orange: #FFB300;
+  --light-orange: #ffb3004c;
+  --light-orange2: #ffb3002a;
+  --darker-orange:#e6a40b;
+  --background-gray:#f5f5f5;
+  --darker-gray:#797979;
+  --brown:#a46600;
+  --cream:#ffd694;
+  --box-shadow:0 0 15px 0 #5656564d;
+  --box-shadow2:0 0 15px 0 #56565628;
+     
+}
+.scrollbar{
+  width: 100%;
+  height: 23em;
+  overflow-y: scroll;
+}
+.scroll-Body{
+  width: 100%;
+  overflow-y: scroll;
+}
+.scroll-filter{
+  width: 100%;
+  height: 15em;
+  overflow-y: scroll;
+}
+
+.scrollbar::-webkit-scrollbar-button,
+.scroll-filter::-webkit-scrollbar-button,
+.scroll-Body::-webkit-scrollbar-button {display:none}
+
+.scrollbar::-webkit-scrollbar,
+.scroll-filter::-webkit-scrollbar,
+.scroll-Body::-webkit-scrollbar {
+  background-color:transparent;
+  width:11px;
+}
+
+.scrollbar::-webkit-scrollbar-track,
+.scroll-filter::-webkit-scrollbar-track,
+.scroll-Body::-webkit-scrollbar-track  {
+  background-color:#fff;
+}
+
+.scrollbar::-webkit-scrollbar-thumb,
+.scroll-filter::-webkit-scrollbar-thumb,
+.scroll-Body::-webkit-scrollbar-thumb {
+  background-color:#babac0;
+  border-radius:26px;
+  border:4.5px solid #fff;
+  
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover,
+.scroll-filter::-webkit-scrollbar-thumb:hover,
+.scroll-Body::-webkit-scrollbar-thumb:hover {
+  background-color:#a0a0a5;
+  border:4px solid #f4f4f4;
+}
+
+
+.css-ja5taz-MuiTooltip-tooltip,
+.css-1k51tf5-MuiTooltip-tooltip{
+  font-family: IRsans-web !important;
+  font-size: 12px !important;
+}
+
+.css-ahj2mt-MuiTypography-root{
+  font-family: IRsans-web !important;
+  text-align: justify;
+  line-height: 2 !important;
+
+}
+
+
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root,
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root
+{
+  font-family: IRsans-web !important;
+ left: unset !important;
+ right: 0;
+}
+
+.css-1d1r5q-MuiFormHelperText-root{
+  text-align: right;
+}
+
+.css-66dh3a-MuiInputBase-input-MuiInput-input::-webkit-scrollbar-button{
+ display: none;
+}
+.css-66dh3a-MuiInputBase-input-MuiInput-input::-webkit-scrollbar{
+  background-color:transparent;
+  width:14px;
+ 
+}
+.css-66dh3a-MuiInputBase-input-MuiInput-input::-webkit-scrollbar-track{
+  background-color:#fff;
+}
+.css-66dh3a-MuiInputBase-input-MuiInput-input::-webkit-scrollbar-thumb{
+  background-color:#babac0;
+  border-radius:16px;
+  border:5px solid #fff;
+}
+.css-66dh3a-MuiInputBase-input-MuiInput-input::-webkit-scrollbar-thumb:hover{
+  background-color:#a0a0a5;
+  border:4px solid #f4f4f4;
+  
+}
+.css-1ldfkfy-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: var(--orange) !important;
+}
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:after,
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after,
+.css-1rb63tl-MuiInputBase-root-MuiInput-root:after{
+  border-bottom: 2px solid var(--orange) !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input{
+  color:var(--darker-gray) !important;
+}
+
+.css-1d1r5q-MuiFormHelperText-root,
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+  font-family: IRsans-web !important;
+  text-align: right !important;
+  color: var(--darker-gray) !important;
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked{
+  color: var(--orange) !important;
+} 
+
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected,
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root:hover{
+  background-color: var(--light-orange) !important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root,
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    font-family: IRsans-web !important;
+}
+
+
+.show-detail-btn{
+  color: var(--darker-orange) !important;
+  background-color: var(--light-orange2) !important;
+  border-radius: 10px !important;
+  padding: 10px 8px !important;
+}

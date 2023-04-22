@@ -1,0 +1,129 @@
+
+
+.shoppingBasket-wrapper{
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    padding: 1em 0;
+    background-color: var(--white);
+}
+
+.shoppingBasket-table{
+    width: 100%;
+ 
+}
+
+
+.shoppingBasket-thead tr{
+    padding: 1em 2em;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-bottom: 1px dashed var(--gray);
+}
+
+
+.shoppingBasket-tbody tr{
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+    border-bottom: 1px dashed var(--gray);
+    padding: 0 2em;
+    text-align: center;
+}
+.shoppingBasket-tbody tr td{
+    width: 100%;
+    text-align: center;
+    margin: 1em 0;
+}
+
+
+.shoppingBasket-product-img img{
+    width: 90px;
+    height: auto;
+}
+
+.shoppingBasket-emptyBasket{
+   padding:2em 0 !important;
+   display: flex;
+   flex-direction: column;
+   row-gap: 2em;
+}
+.shoppingBasket-emptyBasket h4{
+    text-align: center;
+    width: 100%;
+    color: var(--darker-gray);
+}
+.shoppingBasket-emptyBasket img{
+    width: 150px;
+}
+
+.shoppingBasket-productDetail{
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+ 
+}
+
+.shoppingBasket-productID,
+.shoppingBasket-productName,
+.shoppingBasket-productPrice{
+    color: var(--darker-gray);
+}
+
+.shoppingBasket-productName{
+  width: max-content;
+}
+.shoppingBasket-productID{
+    font-size: 18px;
+
+}
+
+.shoppingBasket-off-td,
+.shoppingBasket-totalPrice-td{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+    justify-content: center;
+}
+.shoppingBasket-totalPrice-td{
+    justify-content: end;
+    color: var(--darker-gray);
+    font-size: 20px;
+}
+.submit-offCode{
+    flex-basis: 170px;
+    font-size: 15px !important;
+    padding: 0.8em !important;
+    color: var(--white) !important;
+    border-radius: 10px !important;
+    background-color: var(--orange) !important;
+}
+.submit-offCode:hover{
+    background-color: var(--darker-orange) !important;
+}
+.cancel-offCode{
+    flex-basis: 180px;
+    font-size: 15px !important;
+    padding: 0.8em !important;
+    color: var(--white) !important;
+    border-radius: 10px !important;
+    background-color: var(--red-orange) !important;
+}
+.cancel-offCode:hover{
+    background-color: var(--red-orange2) !important;
+}
+
+
+.shoppingBasket-checkout-btn{
+    background-color: var(--bs-gray-200) !important;
+    color: var(--darker-gray) !important;
+    padding: 0.6em 2em !important;
+    border-radius: 10em !important;
+    transition: 0.25s !important;
+    font-size: 16px !important;
+}
+.shoppingBasket-checkout-btn:hover{
+    background-color: var(--orange) !important;
+    color: var(--white) !important;
+   
+}

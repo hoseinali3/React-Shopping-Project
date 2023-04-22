@@ -1,0 +1,13 @@
+
+
+.section5-container{
+    padding: 1em 0;
+}
+.section5-container a img{
+    border-radius: 25px;
+    box-shadow: var(--box-shadow);
+    transition: 0.3s;
+}
+.section5-container a img:hover{
+  opacity: 0.85;
+}

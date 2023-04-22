@@ -1,0 +1,126 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: var(--darker-orange) !important;
+   
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    font-size: 16px !important;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.css-1aquho2-MuiTabs-indicator{
+    background-color: var(--orange) !important;
+}
+
+.specs-table{
+    border: 1px solid var(--bs-gray-400);
+    border-radius: 20px;
+   overflow: hidden;
+   margin: 0 auto;
+width: 80%;
+}
+.specs-table-row{
+    display: flex;
+    align-items: center;
+}
+
+.spec-key{
+    background-color: var(--bs-gray-200);
+    padding: 1em 3em;
+    border-bottom: 1px solid var(--bs-gray-400);
+}
+.spec-value{
+    
+    padding: 1em 3em;
+    border-bottom: 1px solid var(--bs-gray-400);
+    border-right: 1px solid var(--bs-gray-400);
+}
+
+
+
+
+
+.prod-detail-opinion{
+    background-color: var(--bs-gray-100);
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em 0;
+}
+.prod-detail-opinion-header{
+    display: flex;
+    column-gap: 0.5em;
+    align-items: center;
+}
+.prod-detail-opinion-username{
+   font-size: 20px;
+}
+
+.prod-detail-opinion-date{
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+.question-and-answer-list{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 1em 0 !important;
+    margin: 0 0 1em 0 !important;
+    border-bottom: 1px dashed var(--bs-gray-300);
+}
+
+
+.question-and-answer-listitem{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+   
+    column-gap: 1em;
+}
+
+.question-and-answer-quest-wrapper{
+   
+    background-color: var(--bs-gray-100);
+}
+.question-and-answer-quest-wrapper,
+.question-and-answer-answer-wrapper{
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.question-and-answer-quest-header,
+.question-and-answer-answer-header{
+display: flex; 
+column-gap: 0.5em;
+align-items: center;
+}
+
+.question-and-answer-answer-wrapper{
+    grid-column: 2/3;
+    grid-row: 2/3;
+ 
+    background-color: var(--light-orange2);
+}
+
+
+
+.question-and-answer-username,
+.question-and-answer-admin{
+font-size: 20px;
+}
+
+.question-and-answer-quest-date{
+    font-size: 14px;
+}
+
+.question-and-answer-answer-date{
+    font-size: 14px;
+    font-style: italic;
+}

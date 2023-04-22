@@ -1,0 +1,128 @@
+
+.alltickets-wrapper{
+ display: flex;
+ flex-direction: column;
+ row-gap: 1em;
+ padding: 1em;
+}
+
+
+.alltickets-header{
+    display: flex;
+    padding: 0 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alltickets-header span{
+  font-size: 18px;
+  color: var(--darker-gray);
+}
+.alltickets-header a{
+    background-color: var(--orange) !important;
+    color: var(--white) !important;
+    border-radius: 10px !important;
+    padding: 0.5em 1em !important;
+
+    font-size: 18px !important;
+}
+
+.alltickets-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.alltickets-box{
+box-shadow: var(--box-shadow);
+display: flex;
+padding: 1em 0;
+border-radius: 10px;
+flex-basis: 160px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 0.5em;
+}
+
+.alltickets-tickets,
+.alltickets-tickets-list
+.alltickets-tickets-listitem{
+text-align: center;
+
+}
+
+.alltickets-tickets-list{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.alltickets-tickets-listitem{
+    border-bottom: 1px dashed var(--gray);
+    padding: 1em;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+ 
+}
+
+.alltickets-tickets-listitem button{
+
+ width: max-content !important;
+ justify-self: center;
+
+} 
+
+
+
+.blue-circle,
+.orange-circle,
+.green-circle{
+    position: relative;
+  }
+
+  .blue-circle::after,
+  .orange-circle::after,
+  .green-circle::after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -1.05em;
+    transform: translateY(-50%);
+  }
+
+  .blue-circle::after{
+    background-color: var(--blue);
+  }
+  .orange-circle::after{
+    background-color: var(--orange);
+  }
+  .green-circle::after{
+    background-color: var(--green);
+  }
+ 
+
+  .alltickets-nums{
+    border-radius: 10em;
+    padding: 4.5px 12px;
+    color: var(--white) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  @media screen and (max-width:768px) {
+    .alltickets-boxes{
+      gap: 1em;
+      justify-content: center;
+    }
+
+  }
