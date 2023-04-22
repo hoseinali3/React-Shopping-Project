@@ -1,0 +1,24 @@
+.filter-toggle-list-wrapper{
+    
+    .css-1gjgmky-MuiToggleButtonGroup-root {
+   
+        display: flex !important;
+        gap: 0.5em !important;
+        flex-wrap: wrap !important;
+        justify-content: right !important;
+        margin: 0.5em 0 0 0 !important;
+       
+    }
+    
+    .css-ueukts-MuiButtonBase-root-MuiToggleButton-root{
+        border-radius: 10px !important;
+        border: 1px solid var(--gray) !important;
+    }
+    
+    .css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected{
+        background-color: var(--orange) !important;
+        color: var(--white) !important;
+    }
+    
+    
+}

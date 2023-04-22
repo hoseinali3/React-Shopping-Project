@@ -1,6 +1,7 @@
 import { Slider } from '@mui/material'
 import React from 'react'
 import './SliderProton.css'
+import './SliderProton.scss'
 export default function SliderProton({value,changedPrice}) {
   return (
     <div className='slider-proton-container'>
