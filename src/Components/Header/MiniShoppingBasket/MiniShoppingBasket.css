@@ -42,7 +42,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px 2px;
-    row-gap: 4px;
+    row-gap: 2px;
     
    
 }
@@ -55,7 +55,7 @@
 .counter-product {
        background-color: #fff;
     border-radius: 5em;
-    padding: 5px 12px 2px;
+    padding: 4px 12px 0;
     color: var(--orange);
     font-size: 18px;
     width: max-content;
@@ -83,7 +83,7 @@
 .mini-shopping-basket-container:hover>.products-list{
     opacity: 1;
     visibility: visible;
-    top: 3.15em;
+    top: 54px;
    }
 
 
