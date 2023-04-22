@@ -55,7 +55,7 @@
 .counter-product {
        background-color: #fff;
     border-radius: 5em;
-    padding: 5px 12px 2px;
+    padding: 4px 12px 0;
     color: var(--orange);
     font-size: 18px;
     width: max-content;
@@ -83,7 +83,11 @@
 .mini-shopping-basket-container:hover>.products-list{
     opacity: 1;
     visibility: visible;
+<<<<<<< HEAD
     top: 55.5px;
+=======
+    top: 54px;
+>>>>>>> 865a4446e33923873640aa02ec8082f89d23b7e4
    }
 
 
