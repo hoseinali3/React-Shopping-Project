@@ -299,7 +299,8 @@ body,html{
 
 
 .css-7drnjp:hover,
-.css-7drnjp.Mui-focusVisible{
+.css-7drnjp.Mui-focusVisible,
+.css-7drnjp.Mui-active{
 box-shadow: 0px 0px 0px 8px var(--light-orange2) !important;
 }
 
@@ -312,10 +313,28 @@ box-shadow: 0px 0px 0px 8px var(--light-orange2) !important;
 }
 
 .css-zun73v.Mui-checked,
-.css-zun73v.MuiCheckbox-indeterminate{
+.css-zun73v.MuiCheckbox-indeterminate,
+.css-xzmsi2.Mui-focused{
 color: var(--orange) !important;
 }
 
-.css-zun73v:hover{
+.css-zun73v:hover,
+.css-13kwe5k.Mui-selected{
   background-color: var(--light-orange2) !important;
 }
+
+
+.css-q5cu77{
+  border-radius: 10px !important;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+.css-q5cu77.Mui-selected{
+  background-color: var(--orange) !important;
+  color: var(--white) !important;
+}
+.css-igs3ac,
+.css-1hbzt4u.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-width:0px;
+}
+

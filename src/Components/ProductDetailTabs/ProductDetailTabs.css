@@ -3,12 +3,15 @@
    
 }
 
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root,
+.css-1q2h7u5{
     font-size: 16px !important;
     border-radius: 10px 10px 0 0 !important;
 }
 
-.css-1aquho2-MuiTabs-indicator{
+.css-1aquho2-MuiTabs-indicator,
+.css-ttwr4n,
+.css-1q2h7u5.Mui-selected{
     background-color: var(--orange) !important;
 }
 
@@ -63,6 +66,11 @@ width: 80%;
 
 
 
+.css-9l3uo3{
+    font-family: IRsans-web !important;
+    text-align: justify !important;
+    line-height: 2.5 !important;
+  }
 
 
 

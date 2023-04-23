@@ -18,5 +18,20 @@
         color:var(--white) !important;
         background-color: var(--orange) !important;
     }
-    
-    
+    .css-mqt2s5,
+    .css-348fk2.Mui-focused{
+        font-family: IRsans-web !important;
+
+    }
+    .css-mqt2s5{
+       left: unset !important;
+    }
+
+    .css-348fk2.Mui-focused{
+        color: var(--orange) !important;
+    }
+
+    .css-12rx5qu::after,
+    .css-repss6::after{
+        border-bottom: 2px solid var(--orange) !important;
+    }
