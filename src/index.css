@@ -274,7 +274,8 @@ body,html{
   color: var(--darker-gray) !important;
 }
 
-.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked{
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked,
+.css-exkjcx{
   color: var(--orange) !important;
 } 
 
@@ -294,4 +295,27 @@ body,html{
   background-color: var(--light-orange2) !important;
   border-radius: 10px !important;
   padding: 10px 8px !important;
+}
+
+
+.css-7drnjp:hover,
+.css-7drnjp.Mui-focusVisible{
+box-shadow: 0px 0px 0px 8px var(--light-orange2) !important;
+}
+
+.css-1ya7z0e{
+  display: flex !important;
+  gap: 0.5em !important;
+  flex-wrap: wrap !important;
+  justify-content: right !important;
+  margin: 0.5em 0 0 0 !important;
+}
+
+.css-zun73v.Mui-checked,
+.css-zun73v.MuiCheckbox-indeterminate{
+color: var(--orange) !important;
+}
+
+.css-zun73v:hover{
+  background-color: var(--light-orange2) !important;
 }
