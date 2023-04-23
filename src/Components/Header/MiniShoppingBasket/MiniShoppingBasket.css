@@ -13,14 +13,14 @@
 } */
 
 .mini-shopping-basket-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--orange) !important;
-    padding: 1px 10px !important;
-    border-radius: 10em !important;
-    color: var(--white) !important;
-    line-height: 0px !important;
+  align-items: center !important;
+  background-color: var(--orange)!important;
+  border-radius: 10em!important;
+  color: var(--white)!important;
+  display: flex !important;
+  justify-content: center !important;
+  line-height: 22px !important;
+  padding: 1px 10px!important;
    
 }
 
@@ -56,7 +56,7 @@
 .counter-product {
        background-color: #fff;
     border-radius: 5em;
-    padding: 5px 12px 3px;
+    padding: 8px 12px 5px;
     color: var(--orange);
     font-size: 18px;
     width: max-content;
