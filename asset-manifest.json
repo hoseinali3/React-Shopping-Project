@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Shopping-Project/static/css/main.7f1cea60.css",
+    "main.css": "/React-Shopping-Project/static/css/main.d79190b1.css",
     "main.js": "/React-Shopping-Project/static/js/main.cac980a2.js",
     "static/js/787.a61f225c.chunk.js": "/React-Shopping-Project/static/js/787.a61f225c.chunk.js",
     "static/media/asus-zenbook-laptop.png": "/React-Shopping-Project/static/media/asus-zenbook-laptop.6d982eb6a68fbdcdc2c0.png",
@@ -78,12 +78,12 @@
     "static/media/is in product.svg": "/React-Shopping-Project/static/media/is in product.bb53a6ca3e31a92c8baa849ebd360df6.svg",
     "static/media/easy-return.svg": "/React-Shopping-Project/static/media/easy-return.5fc9ab25d32b6837048c46674d1c02c1.svg",
     "index.html": "/React-Shopping-Project/index.html",
-    "main.7f1cea60.css.map": "/React-Shopping-Project/static/css/main.7f1cea60.css.map",
+    "main.d79190b1.css.map": "/React-Shopping-Project/static/css/main.d79190b1.css.map",
     "main.cac980a2.js.map": "/React-Shopping-Project/static/js/main.cac980a2.js.map",
     "787.a61f225c.chunk.js.map": "/React-Shopping-Project/static/js/787.a61f225c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f1cea60.css",
+    "static/css/main.d79190b1.css",
     "static/js/main.cac980a2.js"
   ]
 }
