@@ -23,8 +23,10 @@
         font-family: IRsans-web !important;
 
     }
-    .css-mqt2s5{
+    .css-mqt2s5,
+    .css-348fk2{
        left: unset !important;
+       right: 0 !important
     }
 
     .css-348fk2.Mui-focused{

@@ -10,9 +10,12 @@
 }
 
 .css-1aquho2-MuiTabs-indicator,
-.css-ttwr4n,
-.css-1q2h7u5.Mui-selected{
+.css-ttwr4n{
     background-color: var(--orange) !important;
+}
+.css-1q2h7u5.Mui-selected{
+    color: var(--darker-orange) !important;
+    background-color: var(--light-orange2) !important;
 }
 
 .specs-table{

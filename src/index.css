@@ -335,6 +335,6 @@ color: var(--orange) !important;
 }
 .css-igs3ac,
 .css-1hbzt4u.Mui-focused .MuiOutlinedInput-notchedOutline{
-  border-width:0px;
+  border-width:0px !important;
 }
 
