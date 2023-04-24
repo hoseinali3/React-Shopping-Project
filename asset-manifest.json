@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Shopping-Project/static/css/main.28e06929.css",
-    "main.js": "/React-Shopping-Project/static/js/main.eea1aca2.js",
+    "main.js": "/React-Shopping-Project/static/js/main.0e480220.js",
     "static/js/787.a61f225c.chunk.js": "/React-Shopping-Project/static/js/787.a61f225c.chunk.js",
     "static/media/asus-zenbook-laptop.png": "/React-Shopping-Project/static/media/asus-zenbook-laptop.6d982eb6a68fbdcdc2c0.png",
     "static/media/sm-4.jpg": "/React-Shopping-Project/static/media/sm-4.24072605cd652423eaa9.jpg",
@@ -79,11 +79,11 @@
     "static/media/easy-return.svg": "/React-Shopping-Project/static/media/easy-return.5fc9ab25d32b6837048c46674d1c02c1.svg",
     "index.html": "/React-Shopping-Project/index.html",
     "main.28e06929.css.map": "/React-Shopping-Project/static/css/main.28e06929.css.map",
-    "main.eea1aca2.js.map": "/React-Shopping-Project/static/js/main.eea1aca2.js.map",
+    "main.0e480220.js.map": "/React-Shopping-Project/static/js/main.0e480220.js.map",
     "787.a61f225c.chunk.js.map": "/React-Shopping-Project/static/js/787.a61f225c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28e06929.css",
-    "static/js/main.eea1aca2.js"
+    "static/js/main.0e480220.js"
   ]
 }
