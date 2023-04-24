@@ -1,8 +1,4 @@
 
-
-
-
-
 .alltickets-filters{
 display: flex;
 align-items: center;
@@ -29,11 +25,12 @@ margin: 2em 0 0 0;
         font-family: IRsans-web !important;
         border-radius: 10px !important;
     }
-    .css-1km1ehz.Mui-selected{
-        background-color: var(--light-orange2) !important;
+
+  
+    .css-qiwgdb{
+        color: var(--bs-gray-700) !important;
+        padding: 9px 14px !important;
     }
-  
-  
     .Mui-focused .MuiOutlinedInput-notchedOutline {
         border: 1px solid var(--orange) !important;
         

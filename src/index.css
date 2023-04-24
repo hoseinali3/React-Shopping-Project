@@ -342,3 +342,9 @@ color: var(--orange) !important;
 .css-mnn31{
   color: var(--darker-gray) !important;
 }
+
+
+.css-1km1ehz.Mui-selected,
+.css-1km1ehz.Mui-selected:hover{
+  background-color: var(--light-orange2) !important;
+}
