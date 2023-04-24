@@ -333,8 +333,12 @@ color: var(--orange) !important;
   background-color: var(--orange) !important;
   color: var(--white) !important;
 }
-.css-igs3ac,
-.css-1hbzt4u.Mui-focused .MuiOutlinedInput-notchedOutline{
-  border-width:0px !important;
+
+
+.css-zrqpq1::after{
+  border-bottom:2px solid var(--orange) !important;
 }
 
+.css-mnn31{
+  color: var(--darker-gray) !important;
+}

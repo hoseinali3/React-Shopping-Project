@@ -11,23 +11,27 @@ margin: 2em 0 0 0;
     .MuiOutlinedInput-selectedOutline{
         border-color: var(--orange);
     }
-    .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
-        border-radius: 10px !important;
 
-    }
     .alltickets-filters .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:hover{
         border-color:none !important;
     }
     .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
         padding: 0.5em 2.5em 0.5em 1.5em !important;
     }
-    .css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    .css-1ujsas3{
         background-color: var(--white) !important;
         color: var(--darker-orange) !important;
         border: 2px solid var(--orange) !important;
         border-radius: 8px !important;
     }
-  
+
+    .css-fvipm8{
+        font-family: IRsans-web !important;
+        border-radius: 10px !important;
+    }
+    .css-1km1ehz.Mui-selected{
+        background-color: var(--light-orange2) !important;
+    }
   
   
     .Mui-focused .MuiOutlinedInput-notchedOutline {

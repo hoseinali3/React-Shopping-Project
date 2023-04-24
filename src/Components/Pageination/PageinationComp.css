@@ -3,3 +3,8 @@
     display: flex;
     justify-content: center;
 }
+
+.css-18lqwt2:hover,
+.css-18lqwt2.Mui-selected{
+    background-color: var(--light-orange2) !important;
+}

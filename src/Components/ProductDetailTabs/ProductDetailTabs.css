@@ -73,6 +73,7 @@ width: 80%;
     font-family: IRsans-web !important;
     text-align: justify !important;
     line-height: 2.5 !important;
+    color: var(--bs-gray-700);
   }
 
 
